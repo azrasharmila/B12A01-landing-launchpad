@@ -135,3 +135,47 @@ section input[type="text"], section input[type="email"], section textarea, secti
     font-weight: bold;
     font-size: 10px;
 }
+
+.footer-over {
+  text-align: center;
+  margin-top: 40px;
+  padding: 50px 20px;
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.footer-logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #3d4df3; /* bright blue */
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+
+
+footer li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+ 
+}
+
+footer li:hover{
+  color: #3d4df3;
+  
+}
+
