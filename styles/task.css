@@ -7,6 +7,9 @@ header{
     background-position: top;
     height: 400px;
 }
+main{
+    background-color: #F5F5F5;
+}
 /* nav style */
 
 .inter-normal {
@@ -95,4 +98,40 @@ nav{
 }
 .item-description{
     color: #757575;
+}
+/* Touch styles */
+.touch{
+    display: flex;
+    
+    margin: 80px 100px;
+    gap: 150px;
+}
+.touch-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+section input[type="text"], section input[type="email"], section textarea, section input[type="submit"]{
+    height:30px;
+    width: 100%;
+    border-radius: 10px; ;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding:10px 20px;
+    margin-bottom: 10px;
+     
+    border: none;
+    
+} 
+
+.touch input[type="submit"] {
+  background-color: #3d4df3;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 40px;
+}
+.labeling{
+    font-weight: bold;
+    font-size: 10px;
 }
