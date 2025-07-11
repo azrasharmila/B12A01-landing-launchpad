@@ -26,8 +26,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px;
-    margin: 50px 50px;
+    padding: 50px 50px;
+    margin: 0 auto;
 }
 .nav h3{
     font-size: 34px;
@@ -61,3 +61,14 @@ nav{
             
   text-align: center;
 }
+/* action styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px;
+}
+.img-rad{
+    border-radius: 20px;
+}
+
