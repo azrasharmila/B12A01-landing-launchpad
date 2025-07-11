@@ -46,8 +46,17 @@ nav{
     font-weight: bold;
     cursor: pointer;
     border: none;
-   
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+.btn-primary:hover {
+  background-color: #3243e0;
+  transform: scale(1.07);
+  box-shadow: 0 8px 20px rgba(61, 77, 243, 0.3);
+
+}
+   
+
 .btn-secondery{
     background-color: #4E47FF;
     color: white;
@@ -55,6 +64,13 @@ nav{
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-secondery:hover{
+   background-color: #3243e0; 
+   transform: scale(1.07);
+   box-shadow: 0 8px 20px rgba(61, 77, 243, 0.3);
 }
 .banner-container{
    display: flex;
@@ -130,6 +146,13 @@ section input[type="text"], section input[type="email"], section textarea, secti
   font-weight: bold;
   cursor: pointer;
   height: 40px;
+  transition: all 0.3s ease;
+}
+.touch input[type="submit"]:hover{
+  background-color: #3243e0;
+  transform: scale(1.07);
+  box-shadow: 0 8px 20px rgba(61, 77, 243, 0.3);
+
 }
 .labeling{
     font-weight: bold;
